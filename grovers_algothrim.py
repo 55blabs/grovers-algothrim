@@ -1,3 +1,6 @@
+#Classical vs Quantum Computer
+
+
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -79,7 +82,7 @@ np.around(sv, 2)
 
 
 # In[18]:
-
+#Grovers Diffusion Operator [Operator] + [Reflection]
 
 reflection = QuantumCircuit(2, name='reflection')
 reflection.h([0, 1])
